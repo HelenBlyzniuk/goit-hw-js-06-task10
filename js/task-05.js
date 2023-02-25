@@ -9,6 +9,9 @@ function addNameIntoSpan(event) {
     const inputText = event.currentTarget.value;
     if (inputText !== '') {
         spanEl.textContent = `${inputText}`;
+    } else {
+        spanEl.textContent = `Anonymous`; 
+        
     }
-    
+     
 }
